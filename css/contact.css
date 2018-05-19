@@ -1,0 +1,24 @@
+.contact{
+  height: 100vh;
+  background-color: #2d3446;
+}
+
+.contact .content{
+  text-align: center;
+  position: relative;
+  top:50%;
+  transform: translateY(-50%);
+}
+
+.contact .email{
+  font-size: 3em;
+  color: #b6c8ce;
+  text-decoration: none;
+}
+
+.contact .socialbar a{
+  font-size: 3em;
+  color:white;
+  display:inline-block;
+  margin-right: 20px;
+}
