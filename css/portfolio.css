@@ -1,0 +1,25 @@
+.portfolio{
+  height: 100vh;
+  background-color: #454a5b;
+}
+
+.portfolio .content{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.portfolio .gallery{
+  display:flex;
+  flex-direction: row;
+}
+
+.portfolio .gallery a{
+  display:inline-block;
+  width: 33.33vw;
+  height: 33.33vw;
+  background-color:red;
+}

@@ -1,0 +1,51 @@
+body, p, h1, h2, h3, h4{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.logo{
+  display:block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: green;
+  text-align: center;
+  line-height: 100px;
+  color: white;
+  font-size: 6.2em;
+}
+
+.logo:after {
+  content: "A"
+}
+
+.logo.small{
+  transform: scale(.5);
+}
+
+
+h1 {
+  font-size: 7em;
+  text-transform: uppercase;
+  color: white;
+}
+
+h2{
+  font-size: 6em;
+  letter-spacing: .1em;
+}
+
+h2 b{
+  color:#b5bfce;
+}
+
+h3{
+font-size: 2em;
+}
+
+h3 a{
+  color:#b5bfce;
+  text-decoration: none;
+}
